@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="STYLESHEET" type="text/css" href="estilos/estilos.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>  
+  <script src="java/java.js"></script>
+</head>
+</head>
+<body>
+<div id="barra1">
+    <ul class="nav justify-content-end ms-auto">
+      <img id="logo" src ="Imagenes/codoacodo.png"></a>
+     <div >
+      <a class="nav-link active" href="#" id="blanco">Conf Bs As</a>
+    </div id="nav1">
+        <ul class="nav justify-content-end ms-auto" id="margenizquierdo">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" id="blanco"><b>La Conferencia</b></a>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" id="blanco">Los oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="blanco">El lugar y la fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="blanco">Convierte en orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pagina1.html" id="verde">Tickets</a>
+          </li>
+        </ul>
+      <br>
+      <br>
+  </div>
+
+<div id="margenes">
+<div id="margenes">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div class="col">
+    	<div id="colorcuadro">
+      		<div class="card h-100">
+	        	<div class="card-body">
+	    		  <h1 id="tituloestudiante">Estudiante</h1>
+			      <p id=textoestudiante>Tienen un descuento</p>
+			      <p id="porcentaje" >80%</p>
+			      <p id="presentar">*Presentar documentacion</p>
+	        	</div>
+      		</div>
+      	</div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+		      <h1 id="tituloestudiante">Trainee</h1>
+		      <p id=textoestudiante>Tienen un descuento</p>
+		      <p id="porcentaje">50%</p>
+		      <p id="presentar">*Presentar documentacion</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+		      <h1 id="tituloestudiante">Junior</h1>
+		      <p id=textoestudiante>Tienen un descuento</p>
+		      <p id="porcentaje">15%</p>
+		      <p id="presentar">*Presentar documentacion</p>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+<div id="margenes">
+    <h1 id="titulo1">VENTA</h1>
+    <h1 id="titulo2">VALOR DE TICKET $200</h1>
+
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label"></label>
+          <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label"></label>
+          <input type="text" class="form-control" id="inputPassword4" placeholder="Apellido">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label"></label>
+          <input type="email" class="form-control" id="inputAddress" placeholder="Correo">
+        </div>
+
+<div id="margenes">
+
+        </div>
+        <div class="row mb-3">
+          <div class="col"> Cantidad
+            <input type="number" class="form-control" min="1"  placeholder="Cantidad" id="Cantidad">
+          </div>
+
+          <div class="col"> Categoria
+            <select class="form-select"  id="Categorías"> 
+              <option value="1">Estudiante</option>
+              <option value="2">Trainee</option>
+              <option value="3">Junior</option>
+            </select>
+          </div>
+  
+</div>
+
+<br><br>
+
+  <button type="button" class="btn btn-primary" disabled data-bs-toggle="button" id="total" >Total a pagar $</button>
+
+
+
+  <div class="btn-group" role="group" aria-label="Basic mixed styles example" id="valorresumen"> 
+	<button type="button" class="btn btn-primary btn-lg">Borrar</button>
+  <button type="button" onclick="resumen();" class="btn btn-success botonverde">Resumen</button>
+
+</div><br><br><br> 
+
+    </div>
+    </div>
+
+
+  <div id="coloresbarra">
+        <nav class="nav nav-pills nav-fill" >
+          <a class="nav-item nav-link disabled" href="#" id="letrablanca">Preguntas <br> frecuentes</a>
+          <a class="nav-item nav-link disabled" href="#" id="letrablanca">Contáctenos</a>
+          <a class="nav-item nav-link disabled" href="#" id="letrablanca">Prensa</a>
+          <a class="nav-item nav-link disabled" href="#" id="letrablanca">Conferencias</a>
+          <a class="nav-item nav-link disabled" href="#" id="letrablanca">Términos y <br> condiciones</a>
+          <a class="nav-item nav-link disabled" href="#" id="letrablanca">Privacidad</a>
+          <a class="nav-item nav-link disabled" href="#" id="letrablanca">Estudiantes</a>
+        </nav>
+  </div>
+
+</body>
+</html>
